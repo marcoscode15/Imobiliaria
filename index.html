@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form class="container" action="config.php" method="POST">
+        <div class="formulario">
+            <label for="nome"> Nome do corretor: *</label> <br>
+            <input type="text" name="nomecorretor" placeholder="Digite seu nome" id="nomecorretor" class="input" required>
+            <br><br>
+            <label for="nome"> Nome do cliente: *</label> <br>
+            <input type="text" name="nomecliente" placeholder="Digite o nome do cliente" id="nomecliente" class="input" required>
+            <br><br>
+            <label for="nome"> Número de telefone: *</label> <br>
+            <input type="text" name="numerotelefone" placeholder="Digite o numero de telefone" id="numerotelefone" class="input" required>
+            <br><br>
+            <label for="nome"> Endereço: *</label> <br>
+            <input type="text" name="endereco" placeholder="Digite o endereço" id="endereco" class="input" required>
+            <br><br>
+            <label for="nome"> Valor do Imovel: *</label> <br>
+            <input type="number" name="preco" placeholder="Digite o preço do imovel" id="preco" class="input" required>
+            <br><br>
+            <label for="nome"> Data de contato: *</label> <br>
+            <input type="datetime" name="dataencontro" placeholder="Digite a data de contato" id="dataencontro" class="input" required>
+            <br><br>
+            <label for="nome"> Complemento: *</label> <br>
+            <input type="text" name="complemento" placeholder="Algum complemento?" id="complemento" class="input">
+            <br><br>
+
+            <button class="btn" type="submit" name="cadastrar" id="cadastrar">Cadastrar</button>
+        </div>
+    </form>
+</body>
+
+</html>
